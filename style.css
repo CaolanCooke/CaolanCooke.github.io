@@ -1,0 +1,239 @@
+body, html
+{
+  height: 100%;  
+}
+
+#Header a:hover
+{
+    color: #fff;
+}
+
+
+#homePage
+{
+    background: url(imgs/backgr.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.homeText
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.homeText h1
+{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+#About
+{
+    background: white no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.aboutText
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.aboutText h1
+{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.aboutText h4
+{
+    margin: auto;
+}
+
+#Experience
+{
+    background: darkgray no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.expText
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.expText h1
+{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+#Academic
+{
+    background: white no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.acaText
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.acaText h1
+{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+#Contact
+{
+    background: darkgray no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.conText
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.conText h1
+{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+/* #sec1
+{
+    background-color: red;
+}
+
+#sec2
+{
+    background-color: blue;
+} */
+
+@media (max-width: 768px) {
+    .homeText h1 {
+        font-size: 300%;
+    }
+    .homeText h3 {
+        font-size: 150%;
+    }
+    .aboutText h1 {
+        font-size: 300%;
+    }
+    .aboutText h4 {
+        font-size: 150%;
+    }
+    .expText h1 {
+        font-size: 300%;
+    }
+    .aboutText h2 {
+        font-size: 150%;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+    margin-top: 5px;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
+
+
+.results-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.results-tab #tabs h6.section-title{
+    color: #eee;
+}
+.results-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.results-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.results-tab .nav-link:hover {
+    border: none;
+}
+.results-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.results-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+#projects {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.red{
+    color:red;
+    }
+
+    .form-area {
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 60px 0px 60px;
+    border: 1px solid GREY;
+    position: relative;
+}
+
+
